@@ -1,0 +1,100 @@
+body {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+}
+
+.inline {
+    display: inline-block;
+}
+
+.card {
+    background: #F6F7FB;
+    border-radius: 8px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.23), 0 3px 6px rgba(0, 0, 0, 0.16);
+    margin: 16px;
+    padding-bottom: 16px;
+    width: 320px;
+}
+
+h2 {
+    color: #505050;
+    font-size: 24px;
+    margin: 0;
+    padding: 16px 0 16px 16px;
+}
+
+.item-cover {
+    border-radius: 8px 8px 0 0;
+}
+
+.fila {
+    margin-left: 16px;
+    margin-bottom: 16px;
+}
+
+.subtitulo {
+    color: #A2A3A5;
+    display: inline-block;
+    font-size: 18px;
+}
+
+.precio {
+    color: #6c9d48;
+    display: inline-block;
+    font-size: 24px;
+    margin-left: 16px;
+}
+
+.contador {
+    background: white;
+    border-radius: 30px;
+    display: inline-block;
+    height: 40px;
+    margin-left: 16px;
+    position: relative;
+    width: 120px;
+}
+
+.boton-menos {
+    cursor: pointer;
+    left: 4px;
+    position: absolute;
+    top: 4px;
+}
+
+.boton-mas {
+    cursor: pointer;
+    position: absolute;
+    right: 4px;
+    top: 4px;
+}
+
+.cantidad {
+    color: #A2A3A5;
+    display: inline-block;
+    font-size: 18px;
+    line-height: 40px;
+    text-align: center;
+    width: 120px;
+}
+
+.boton-agregar {
+    background: #6686d9;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 48px;
+    line-height: 48px;
+    margin: 16px 16px 0 16px;
+    text-align: center;
+}
+
+.division {
+    background: #BFBFBF;
+    height: 2px;
+    margin-bottom: 16px;
+}
+
+.fila-final {
+    margin-left: 16px;
+}
